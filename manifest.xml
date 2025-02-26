@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+        xsi:type="TaskPaneApp"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Id>com.example.hinglishconverter</Id>
+    <Version>1.0</Version>
+    <ProviderName>Your Name</ProviderName>
+    <DefaultLocale>en-US</DefaultLocale>
+    <DisplayName>Hinglish to Kruti Dev Converter</DisplayName>
+    <Description>Type Hinglish and Convert to Kruti Dev 010 with AI Suggestions</Description>
+    <Hosts>
+        <Host Name="Word"/>
+    </Hosts>
+    <DefaultSettings>
+        <SourceLocation DefaultValue="https://github.com/ritesh-0120/Hinglish-Word-Addin.git"/>
+    </DefaultSettings>
+    <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
